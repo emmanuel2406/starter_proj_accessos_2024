@@ -57,6 +57,16 @@ pip install -r requirements.txt
 - **Google Translate**: Follow the instructions at [Google Cloud Translation](https://cloud.google.com/translate/docs/setup) to set up a project and obtain a JSON credentials file. Reference the path to your JSON credentials in the `app.py` file.
 - **OpenAI**: Obtain an API key by signing up at [OpenAI](https://openai.com/). Place your API key in the `app.py` file.
 
+#####Create a secret.py file
+
+In this file, add your API keys like this:
+
+```
+OPENAI_API_KEY = 'your_openai_api_key'
+DEEPL_API_KEY = 'your_deepl_api_key'
+GOOGLE_APPLICATION_CREDENTIALS = 'path_to_your_google_credentials_json'
+```
+
 ## Running the Application
 
 ### 1. Start the Flask App
