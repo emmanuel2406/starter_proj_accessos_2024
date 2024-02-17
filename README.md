@@ -88,7 +88,7 @@ Open a web browser and access the application at http://127.0.0.1:5000/.
 - **Translate Text**: Enter the text you wish to translate, select the target language (e.g., `en` for English, `de` for German), choose the translation API, and click the "Translate" button.
 - **Supported Languages**: The application supports translating into multiple languages, including English, Spanish, Arabic, and Hindi. Ensure the target language code is correctly entered.
 
-## Sample Prompts for Translation
+## Sample Prompts for Translation (In English, Spanish, Arabic, & Hindi)
 
 <details>
 <summary><b>Medical Emergency</b>: "I need medical assistance immediately. I am experiencing severe chest pain and difficulty breathing."</summary>
