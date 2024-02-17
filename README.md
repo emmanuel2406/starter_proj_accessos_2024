@@ -90,9 +90,38 @@ Open a web browser and access the application at http://127.0.0.1:5000/.
 
 ## Sample Prompts for Translation
 
-- **Medical Emergency**: "I need medical assistance immediately. I am experiencing severe chest pain and difficulty breathing."
-- **Physical Danger**: "I am in danger and need help. Someone is following me, and I fear for my safety."
-- **Lost or Stranded**: "I am lost and cannot find my way back. I need assistance to get to a safe location."
-- **Natural Disaster**: "Affected by the earthquake, trapped under debris. Need rescue services immediately."
+<details>
+<summary><b>Medical Emergency</b>: "I need medical assistance immediately. I am experiencing severe chest pain and difficulty breathing."</summary>
+
+- **Arabic**: "أحتاج إلى مساعدة طبية فورية. أعاني من ألم شديد في الصدر وصعوبة في التنفس."
+- **Spanish**: "Necesito asistencia médica inmediatamente. Estoy experimentando un dolor severo en el pecho y dificultad para respirar."
+- **Hindi**: "मुझे तुरंत चिकित्सा सहायता की आवश्यकता है। मैं गंभीर सीने में दर्द और सांस लेने में कठिनाई का अनुभव कर रहा हूँ।"
+
+</details>
+
+<details>
+<summary><b>Physical Danger</b>: "I am in danger and need help. Someone is following me, and I fear for my safety."</summary>
+
+- **Arabic**: "أنا في خطر وأحتاج إلى المساعدة. هناك شخص يتبعني وأنا خائف على سلامتي."
+- **Spanish**: "Estoy en peligro y necesito ayuda. Alguien me está siguiendo y temo por mi seguridad."
+- **Hindi**: "मैं खतरे में हूं और मुझे मदद की जरूरत है। कोई मुझे फॉलो कर रहा है और मुझे अपनी सुरक्षा का डर है।"
+
+</details>
+
+<details>
+<summary><b>Lost or Stranded</b>: "I am lost and cannot find my way back. I need assistance to get to a safe location."</summary>
+
+- **Arabic**: "أنا ضائع ولا أستطيع العثور على طريق العودة. أحتاج إلى مساعدة للوصول إلى مكان آمن."
+- **Spanish**: "Estoy perdido y no puedo encontrar el camino de vuelta. Necesito ayuda para llegar a un lugar seguro."
+- **Hindi**: "मैं खो गया हूं और वापस जाने का रास्ता नहीं पा रहा हूँ। मुझे किसी सुरक्षित स्थान पर जाने के लिए सहायता की आवश्यकता है।"
+
+</details>
+
+<details>
+<summary><b>Natural Disaster</b>: "Affected by the earthquake, trapped under debris. Need rescue services immediately."</summary>
+
+- **Arabic**: "تأثرت بالزلزال، محاصر تحت الأنقاض. بحاجة إلى خدمات الإنقاذ فوراً."
+- **Spanish**: "Afectado por el terremoto, atrapado bajo los escombros. Necesito servicios de rescate de inmediato."
+- **Hindi**: "भूकंप से प्रभावित, मलबे के नीचे फंसा हुआ। मुझे तुरंत बचाव सेव &#8203;``【oaicite:0】``&#8203;
 
 Please replace the placeholder paths and API keys in the `app.py` file with your actual credentials before running the application.
