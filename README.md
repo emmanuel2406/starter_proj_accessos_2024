@@ -57,9 +57,9 @@ pip install -r requirements.txt
 - **Google Translate**: Follow the instructions at [Google Cloud Translation](https://cloud.google.com/translate/docs/setup) to set up a project and obtain a JSON credentials file. Reference the path to your JSON credentials in the `app.py` file.
 - **OpenAI**: Obtain an API key by signing up at [OpenAI](https://openai.com/). Place your API key in the `app.py` file.
 
-#####Create a secret.py file
+#### 5. Create a secret.py file
 
-In this file, add your API keys like this:
+In the root of the project, create a file called `secret.py` and add your API keys like this:
 
 ```
 OPENAI_API_KEY = 'your_openai_api_key'
