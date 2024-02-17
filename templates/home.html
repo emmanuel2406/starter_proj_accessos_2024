@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation App</title>
+</head>
+<body>
+    <h1>Translation App</h1>
+    <form method="post">
+        <label for="text">Text:</label>
+        <input type="text" id="text" name="text" required><br><br>
+        <label for="language">Language (e.g., en, de):</label>
+        <input type="text" id="language" name="language" required><br><br>
+        <label for="api">API:</label>
+        <select id="api" name="api">
+            <option value="DeepL">DeepL</option>
+            <option value="Google">Google Translate</option>
+            <option value="OpenAI">OpenAI</option>
+        </select><br><br>
+        <input type="submit" value="Translate">
+    </form>
+    <p>Translation: {{ translation }}</p>
+</body>
+</html>
