@@ -1,10 +1,16 @@
 from flask import Flask, request, render_template
 from google.cloud import translate_v2 as google_translate
 from deep_translator import GoogleTranslator as deep_google_translate
+from deep_translator import DeepL
+from googletrans import Translator, constants
 import openai
 from secret import OPENAI_API_KEY, DEEPL_API_KEY, GOOGLE_APPLICATION_CREDENTIALS
+from google.oauth2 import service_account
 
 app = Flask(__name__)
+
+# Your work will be in this file. Look at README.md for more information on how to set up the API keys.
+# Don't forget to create a secret.py file with your keys. 
 
 openai.api_key = OPENAI_API_KEY
 
@@ -17,21 +23,14 @@ def home():
         api = request.form['api']
 
         if api == 'DeepL':
-            from deep_translator import DeepL
-            translator = DeepL(api_key=DEEPL_API_KEY)
-            translation = translator.translate(text, target_language=target_language)
+            # Call DeepL API
+            translation = "REPLACE WITH CODE"
         elif api == 'Google':
-            translator = google_translate.Client()
-            result = translator.translate(text, target_language=target_language)
-            translation = result['translatedText']
+            # Call Cloud Translation API from Google
+            translation = "REPLACE WITH CODE"
         elif api == 'OpenAI':
-            response = openai.Completion.create(
-                engine="gpt-3.5-turbo-instruct",
-                prompt=f"Translate the following text to {target_language}: {text}",
-                temperature=0.3,
-                max_tokens=60
-            )
-            translation = response.choices[0].text.strip()
+            # Call OpenAI API
+            translation = "REPLACE WITH CODE"
 
     return render_template('home.html', translation=translation)
 

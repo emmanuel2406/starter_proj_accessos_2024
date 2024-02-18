@@ -51,11 +51,17 @@ You can also use the requirements.txt file with all dependencies.
 pip install -r requirements.txt
 ```
 
+You may face a conflict with Flask & Werkzeug, if you do, run the following command:
+
+```
+pip install --upgrade flask werkzeug
+```
+
 #### 4. Configure API Keys
 
-- **DeepL**: Sign up at [DeepL Pro](https://www.deepl.com/pro#developer) and obtain an API key. Place your API key in the `app.py` file.
-- **Google Translate**: Follow the instructions at [Google Cloud Translation](https://cloud.google.com/translate/docs/setup) to set up a project and obtain a JSON credentials file. Reference the path to your JSON credentials in the `app.py` file.
-- **OpenAI**: Obtain an API key by signing up at [OpenAI](https://openai.com/). Place your API key in the `app.py` file.
+- **DeepL**: Sign up at [DeepL Pro](https://www.deepl.com/pro#developer) and obtain an API key. Place your API key in the `secret.py` file.
+- **Google Translate**: Follow the instructions at [Google Cloud Translation](https://cloud.google.com/translate/docs/setup) to set up a project and obtain a JSON credentials file. Reference the path to your JSON credentials in the `secret.py` file.
+- **OpenAI**: Obtain an API key by signing up at [OpenAI](https://openai.com/). Place your API key in the `secret.py` file.
 
 #### 5. Create a secret.py file
 
